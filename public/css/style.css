@@ -1,0 +1,62 @@
+#slider{
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+.first_cont{
+    width: 400px;
+    height: 110px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 90px;
+}
+.second_cont{
+    width: 400px;
+    height: 110px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 135px;
+}
+.third_cont{
+    width: 400px;
+    height: 300px;
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 150px;
+}
+.back{
+    width: 50px;
+    height: 60px;
+    z-index: 1;
+}
+#sBack{
+    align-self: flex-end;
+}
+.next{
+    width:50px;
+    height: 60px;
+    z-index: 1;
+}
+#sNext{
+    align-self: flex-end;
+}
+.first{
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+}
+.second{
+    width: 230px;
+    height: 110px;
+    overflow: hidden;
+}
+.third{
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+}
